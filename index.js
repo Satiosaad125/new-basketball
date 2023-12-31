@@ -1,9 +1,4 @@
-import {defineConfig} from 'vite'
 
-
-export default defineConfig({
-	plugins: []	
-});
 let guestCounter = 0
 let homeCounter = 0
 let scoreGuest = document.getElementById("guest-score")
