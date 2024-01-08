@@ -1,19 +1,20 @@
 body {
     margin: 0;
     text-align: center;
+    padding-top: 100px;
+    background-color: #023047;
 }
 
 
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
-    padding: 200px;
-    background-color: #023047;
+    margin-bottom: 100px;
+   
     
 }
 .color {
-    font-weight: 800;
+    font-weight: bold;
     width: 150px;
     height: 35px;
     color: #fff;
@@ -38,14 +39,10 @@ body {
 }
 .game-btn {
     text-transform: capitalize;
-    text-align: center;
-    width: 150px;
-    height: 50px;
-    padding: 5px 10px;
-    margin: 50px;
+    font-weight: bold;
+    padding: 8px 16px;
     border-radius: 8px;
-    background-color: #8ecae6;
-    border: none;
-    position: absolute;
-    
+    color: #bc6c25;
+    background-color: #ffafcc;
+    border: none;    
 }
